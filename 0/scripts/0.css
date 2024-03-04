@@ -1,0 +1,74 @@
+/* 标签选择器 */
+h1 {
+    color: rgb(0, 183, 255);
+    font-size: 35px;
+    text-decoration: line-through;
+    font-weight: 100;
+  }
+  .首 {
+    color: dimgray;
+  }
+  /* id选择器 */
+  #shou {
+    color: #0015ff;
+  }
+  #颔 {
+    color: lightslategray;
+  }
+  /* 优先级：标签选择器<类选择器<id选择器 */
+  .author {
+    font-size: 22px;
+    text-indent: 44px;
+  }
+  #div1 {
+    font-family: '华文仿宋';
+    font-weight: bold;
+  }
+  #div2 {
+    font-family: '隶书';
+    font-size: 30px;
+    font-weight: 10;
+  }
+  #div2 p {
+    text-align: center;
+    letter-spacing: 15px;
+    font-style: italic;
+    color: #07407d;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* text-transform针对英语的大小写
+  letter-spacing和word-spacing只会用于英文网页 */
+  .image {
+    border-top: 5px solid rgb(146, 242, 249);
+    border-bottom: 50px double rgb(145, 150, 152);
+    border-left: 10px dashed rgb(191, 249, 164);
+    border-right: 50px dotted rgb(255, 120, 120);
+  }
+  .list .l1 {
+    list-style-type: decimal;
+  }
+  .list .l2 {
+    list-style-type: lower-roman;
+  }
+  .list .l3 {
+    list-style-type: lower-alpha;
+  }
+  .list2 .l1 {
+    list-style-type: disc;
+  }
+  .list2 .l2 {
+    list-style-type: circle;
+  }
+  .list2 .l3 {
+    list-style-type: square;
+  }
+  ol,
+  ul {
+    list-style-type: none;
+  }
+  /* #img1{ vertical-align: top; }字与图片top	顶部对齐
+    #img2{ vertical-align: middle; }middle	中部对齐
+    #img3{ vertical-align: bottom; }baseline	基线对齐
+    #img4{ vertical-align: baseline; }bottom	底部对齐*/
