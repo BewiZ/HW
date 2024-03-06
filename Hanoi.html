@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanoi</title>
+  </head>
+  <script>
+    function move(n, a, b, c) {
+      if (n == 1) console.log('Move 1 from a to c');
+      else {
+        move(n - 1, a, c, b);
+        console.log('Move ' + n + ' from ' + a + ' to ' + c);
+        move(n - 1, b, a, c);
+      }
+    }
+    move(7, 'a', 'b', 'b');
+  </script>
+  <body></body>
 </html>
