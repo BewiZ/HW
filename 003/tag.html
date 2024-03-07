@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My tITlE</title>
+  </head>
+  <body>
+    <h1>我的第一个标题</h1>
+    <h2>Second</h2>
+    <h3>Third</h3>
+    <p>
+      Hello world!<br />
+      Defonic<br />
+      <a href="https://defonic.com/">https://defonic.com/</a>
+      <br />
+      <a href="https://defonic.com/" target="_blank">访问Defonic网站</a>
+    </p>
+    <!--注释-->
+    <p>emmmm</p>
+    <hr />
+    <p>
+      <b>这里</b><br />
+      <em>不bububu?</em><br / ><i>知道</i><br />
+      <small>说,,,,,</small><br />
+      <strong><strong>什么</strong></strong
+      ><br />
+      不能hi速度回复<sub>，bhjbfr</sub><br /><sup>随便</sup><br /><ins>写点</ins
+      ><br /><del>装装样子</del><br />。
+      <code>一段电脑代码 print("Hello World")</code>看不懂code
+      <kbd>键盘输入</kbd>
+    </p>
+    <!-- 无序列表 -->
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+    <!-- 有序列表 -->
+    <ol>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ol>
+    <!-- 定义列表 -->
+    <dl>
+      <dt>定义名词</dt>
+      <dd>定义描述</dd>
+    </dl>
+    <!-- 表格 -->
+    <table>
+      <thead>
+        <tr>
+          <th>姓名</th>
+          <th>邮箱</th>
+          <th>年龄</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Zadsjrng</td>
+          <td>szedgs@gmail.com</td>
+          <td>354635</td>
+        </tr>
+        <tr>
+          <td>Zadsjrng</td>
+          <td>szedgs@gmail.com</td>
+          <td>354635</td>
+        </tr>
+        <tr>
+          <td>Zadsjrng</td>
+          <td>szedgs@gmail.com</td>
+          <td>354635</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>001</td>
+          <td>002</td>
+          <td>003</td>
+        </tr>
+      </tfoot>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">这是小明</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>姓名：</td>
+          <td>小明</td>
+        </tr>
+        <tr>
+          <!-- 合并行 -->
+          <td rowspan="2">喜欢水果：</td>
+          <td>苹果</td>
+        </tr>
+        <tr>
+          <td>香蕉</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <!-- form表单 -->
+    <form name="A NEW FORM">
+      <div>
+        <label>姓名</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label>密码：</label>
+        <input type="password" />
+      </div>
+      <div>
+        <label>信息</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <!-- name为组名，value为选中取值，checked表示默认 -->
+        <input type="radio" name="sex" value="男" checked /><label>男</label>
+        <input type="radio" name="sex" value="女" /><label>女</label>
+      </div>
+      <div>
+        <input type="checkbox" name="fruit" value="苹果" /><label>苹果</label>
+        <input type="checkbox" name="fruit" value="香蕉" /><label>香蕉</label>
+        <input type="checkbox" name="fruit" value="桃子" /><label>桃子</label>
+        <input type="checkbox" name="fruit" value="李子" /><label>李子</label>
+      </div>
+      <div>
+        <input type="button" value="普通按钮" />
+        <input type="submit" value="提交按钮" />
+      </div>
+      <!-- 选项 -->
+      <div>
+        <select>
+          <option>000</option>
+          <option>111</option>
+          <option>222</option>
+          <option>333</option>
+          <option>444</option>
+          <option>555</option>
+          <option selected>666</option>
+          <option>777</option>
+          <option>888</option>
+          <option>999</option>
+          <option>010</option>
+        </select>
+      </div>
+      <!-- 仅重置当前form表单中的内容 -->
+      <input type="reset" value="重置按钮" />
+      <input type="file" />
+    </form>
+    <hr />
+    <form name="ANOTHER NEW FORM">
+      <div><label>Nicheng:</label> <input type="text" /></div>
+      <div><label>Mima:</label><input type="password" /></div>
+      <div>
+        <label>Youxiang:</label>
+        <input type="text" />
+        <select>
+          <option value="@qq.com">@qq.com</option>
+          <option value="@gmail.com">@gmail.com</option>
+          <option value="@163.com">@163.com</option>
+          <option value="@sina.com">@sina.com</option>
+          <option value="@126.com">@126.com</option>
+        </select>
+      </div>
+      <div>
+        <label>爱好：</label>
+        <input type="checkbox" name="hobby" value="旅游" />
+        <label>旅游</label>
+        <input type="checkbox" name="hobby" value="摄影" />
+        <label>摄影</label>
+        <input type="checkbox" name="hobby" value="运动" />
+        <label>运动</label>
+      </div>
+      <div>
+        <label>个人简介：</label>
+        <textarea cols="30" rows="10"></textarea>
+      </div>
+      <div><label>上传个人照片；</label> <input type="file" /></div>
+      <div>
+        <input type="reset" value="立即重置" />
+        <a href=""><input type="button" value="立即注册" /></a>
+      </div>
+    </form>
+    <!-- 按钮 -->
+    <button>selgjkn</button>
+    <img
+      src="./环境002.png"
+      alt="当图片无法加载"
+      title="鼠标移至图片的提示词"
+      width="500"
+      height="400"
+    />
+    <a href="./环境002.png"><button>tupian</button></a>
+    <!-- h1{$}*18，锚链接 -->
+    <h1 id="999">1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>4</h1>
+    <h1>5</h1>
+    <h1>6</h1>
+    <h1>7</h1>
+    <h1>99999</h1>
+    <h1>9</h1>
+    <h1>10</h1>
+    <h1>11</h1>
+    <h1>12</h1>
+    <h1>13</h1>
+    <h1>14</h1>
+    <h1>15</h1>
+    <a href="#999"><h1>16</h1></a>
+    <h1>17</h1>
+    <h1>18</h1>
+    <!-- 功能性链接 -->
+    <a href="mailto:3267991180@qq.com">邮箱</a>
+    <a href="tel:13957616100">电话</a>
+    <p>
+      <!-- 特殊字符 -->
+      <!-- 空格 -->
+      特殊符号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊符号特殊符号特殊符号
+      <!-- 大、小于号 --><br />
+      &gt;&gt;&gt;&gt;&gt;>>>>><br />
+      &lt;&lt;&lt;&lt;&lt;<<<<<<br />
+      <!-- 引号 --><br />
+      引号&quot;引号内容&quot;<br />
+      "手动引号"<br />
+      <!-- 版权符号 -->
+      &copy;版权符号
+    </p>
+    <iframe
+      src="https://mynoise.net/NoiseMachines/summerNightThunderNoiseGenerator.php"
+      width="500"
+      height="300"
+    ></iframe>
+    <script></script>
+  </body>
+</html>
