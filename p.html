@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-size: 30px;
+      color: white;
+      background-color: black;
+    }
+    h1 {
+      text-align: center;
+      align-self: auto;
+      color: rgb(255, 0, 0);
+      background-color: rgb(242, 255, 0);
+    }
+    .ta {
+      border: 5px solid red;
+      /* position: fixed; */
+      text-align: center;
+      margin: 0 auto;
+      width: 960px;
+      height: 540px;
+      background-image: url(https://file.51pptmoban.com/d/file/2015/03/25/c95a9b4d190dd6d3d9c0cee09f861bae.jpg);
+      background-size: 100%;
+    }
+    .submit {
+      font-size: 20px;
+    }
+    .sel {
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <h1>Example of Form and Table</h1>
+    <form
+      action="https://edqaa.com/t/Echo"
+      enctype="application/x-www-form-urlencoded"
+      id="sam1"
+      method="post"
+      name="sam1"
+      target="_blank">
+      <table class="ta" cellpadding="4" cellspacing="3">
+        <caption>
+          Application Form
+        </caption>
+        <tbody>
+          <tr>
+            <td>Student ID</td>
+            <td>
+              <input type="text" name="ID" maxlength="10" />
+            </td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td>
+              <input type="text" name="LastName" />
+            </td>
+          </tr>
+          <tr>
+            <td>First Name</td>
+            <td>
+              <input type="text" name="FirstName" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Age</label></td>
+            <td>
+              <select name="age" size="1" class="sel">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Major</td>
+            <td>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="major" value="CIS" />CIS
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="major" value="Math" />Math
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <input
+                type="submit"
+                class="submit"
+                name="submit"
+                value="submit" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
