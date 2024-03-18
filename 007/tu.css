@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.disk {
+  width: 750px;
+  height: 750px;
+  background: lightblue;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one_2 {
+  /* 大椭圆 */
+  width: 500px;
+  height: 200px;
+  background: rgb(48, 38, 25);
+  box-sizing: border-box;
+  border-color: rgb(66, 66, 66);
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+}
+.one_2::before {
+  /* 小椭圆 */
+  content: '';
+  width: 100px;
+  height: 40px;
+  background: rgb(102, 79, 50);
+  box-sizing: border-box;
+  border-color: rgb(74, 74, 74);
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 140%);
+}
+.one {
+  /* 中椭圆 */
+  width: 200px;
+  height: 80px;
+  background: rgb(94, 79, 60);
+  box-sizing: border-box;
+  border-color: rgb(66, 66, 66);
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  transform: translate(0, 120%);
+}
+.one_1 {
+  /* 矩形 */
+  content: '';
+  width: 200px;
+  height: 100px;
+  background: rgb(94, 79, 60);
+  box-sizing: border-box;
+  border-color: rgb(66, 66, 66);
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -65%);
+}
+.egg {
+  width: 750px;
+  height: 750px;
+  background: lightblue;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  width: 450px;
+  height: 650px;
+  background: rgb(68, 100, 68);
+  border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+}
+.heart {
+  width: 750px;
+  height: 750px;
+  background: lightblue;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three {
+  width: 600px;
+  height: 600px;
+  background: rgb(76, 41, 37);
+  position: absolute;
+}
+.three:before {
+  content: '';
+  width: 270px;
+  height: 500px;
+
+  border-radius: 270px 270px 0 0;
+  background: salmon;
+  transform: rotateZ(-45deg);
+  transform-origin: 0 100%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+.three:after {
+  content: '';
+  width: 270px;
+  height: 500px;
+  border-radius: 270px 270px 0 0;
+  background: rgb(114, 250, 196);
+  transform: rotateZ(45deg);
+  transform-origin: 100% 100%;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+}
