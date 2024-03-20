@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.zft {
+  height: 100px;
+  width: 100px;
+  background: #ff0000;
+
+  /* clip-path: polygon(0% 0%, 100% 0%, 0% 100%); */
+
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.zft::before {
+  content: '';
+  height: 100px;
+  width: 30px;
+  background: #00ff00;
+  position: absolute;
+
+  transform: translate(100px, -15px) skew(0, -45deg);
+  /* clip-path: polygon(0 30px, 100% 0, 100% 100px, 0 100%); */
+}
+.zft::after {
+  content: '';
+  height: 30px;
+  width: 100px;
+  background: #0000ff;
+  position: absolute;
+
+  transform: translate(15px, -30px) skew(-45deg, 0);
+  /* clip-path: polygon(30px 0, 100% 0, 100px 100%, 0 100%); */
+}
+.w1 {
+  --sin36: calc(sin(36deg));
+  --cos36: calc(cos(36deg));
+  --sin72: calc(sin(72deg));
+  --cos72: calc(cos(72deg));
+  --xian: calc(2 + 2 * var(--cos72));
+  height: calc(var(--xian) * var(--sin36) * 200px);
+  width: calc(var(--xian) * var(--cos36) * 200px);
+  background: #f0f000;
+  clip-path: polygon(0 0, calc(calc(1 + 2 * var(--cos72)) * 200px) 0, 100% 100%);
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+.w2 {
+  --sin36: calc(sin(36deg));
+  --cos36: calc(cos(36deg));
+  --sin72: calc(sin(72deg));
+  --cos72: calc(cos(72deg));
+  --xian: calc(2 + 2 * var(--cos72));
+  height: calc(var(--xian) * var(--sin36) * 200px);
+  width: calc(var(--xian) * var(--cos36) * 200px);
+  background: #f000f0;
+  clip-path: polygon(0 0, calc(calc(1 + 2 * var(--cos72)) * 200px) 0, 100% 100%);
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  transform: translate(100px, 0px) rotate(-72deg);
+}
+.w3 {
+  --sin36: calc(sin(36deg));
+  --cos36: calc(cos(36deg));
+  --sin72: calc(sin(72deg));
+  --cos72: calc(cos(72deg));
+  height: calc(var(--sin72) * 200px);
+  width: calc(2 * var(--cos72) * 200px);
+  background: #00f0f0;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  transform: translate(200px, calc(var(--sin72) * -1 * 200px));
+}
+/* .wjx {
+  --sin36: calc(sin(36deg));
+  --cos36: calc(cos(36deg));
+  --sin72: calc(sin(72deg));
+  --cos72: calc(cos(72deg));
+  --xian: calc(2 + 2 * var(--cos72));
+  height: calc(var(--xian) * var(--sin36) * 200px);
+  width: calc(var(--xian) * var(--cos36) * 200px);
+  background: #f0f000;
+  clip-path: polygon(0 0, calc(calc(1 + 2 * var(--cos72)) * 200px) 0, 100% 100%);
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+.wjx::before {
+  content: '';
+  height: calc(var(--xian) * var(--sin36) * 200px);
+  width: calc(var(--xian) * var(--cos36) * 200px);
+  background-color: #f000f0;
+  clip-path: polygon(0 0, calc(calc(1 + 2 * var(--cos72)) * 200px) 0, 100% 100%);
+  position: absolute;
+  transform: translate(100px, 0px) rotate(-72deg);
+}
+.wjx::after {
+  height: calc(var(--sin72) * 200px);
+  width: calc(2 * var(--cos72) * 200px);
+  background: #00f0f0;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  position: absolute;
+  transform: translate(200px, calc(var(--sin72) * -1 * 200px));
+} */
