@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      @keyframes mmm {
+        0% {
+          background-color: aquamarine;
+          transform: rotate(0deg);
+        }
+        40% {
+          background-color: blanchedalmond;
+          transform: rotate(720deg) scale(0.4, 1);
+        }
+        60% {
+          background-color: chartreuse;
+          transform: translateX(100px) scale(0.4, 1);
+        }
+        70% {
+          background-color: cyan;
+          transform: translateX(-150px) scale(0.4, 1);
+        }
+        100% {
+          background-color: darkseagreen;
+          transform: scale(1, 0.4) translateY(300px) scale(0.4, 1);
+        }
+      }
+
+      .div1 {
+        width: 500;
+        height: 500;
+        background-color: aquamarine;
+        margin: 100px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        animation: mmm 10000ms ease infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+  </body>
+</html>
