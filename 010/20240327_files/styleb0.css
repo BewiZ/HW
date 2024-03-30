@@ -1,0 +1,52 @@
+#progress p{
+display: block;
+width: 240px;
+padding: 2px 5px;
+margin: 2px 0;
+border: 1px inset #446;
+border-radius: 5px;}
+#progress p.success{
+background: #0c0 none 0 0 no-repeat;
+}
+#progress p.failed{
+background: #c00 none 0 0 no-repeat;
+}
+A:link {COLOR: #0000AA;TEXT-DECORATION: none}
+A:visited {COLOR: #0000AA;TEXT-DECORATION: none}
+.GreenButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#00BBBB;background:linear-gradient(#00BBBB,#1DCDCD) #00BBBB;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.RedButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#CC0000;background:linear-gradient(#CC0000,#E91212) #CC0000;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.YellowButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#FFD700;background:linear-gradient(#FFD700,#FFE912) #FFD700;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.PurpleButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#8B008B;background:linear-gradient(#8B008B,#A8129D) #8B008B;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.BlueButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#0000BB;background:linear-gradient(#0000BB,#1D12CD) #0000BB;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.OrangeButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#F79819;background:linear-gradient(#F79819,#FFAA2B) #F79819;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.BlackButton{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#000000;background:linear-gradient(#000000,#1D1212) #000000;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+.B00BBB{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;;margin:0px;padding:0px;width:auto;overflow:visible;background-color:#00BBBB;background:linear-gradient(#00BBBB,#1DCDCD) #00BBBB;color:antiquewhite;font-family:inherit;font-weight:bold;border:1px #b0b0b0 outset;text-shadow:#606060 -1px -1px;}
+input.B22BB00 {background-color:#22BB00;color:#000000;font-weight:300;font-family:times}
+.selectoption{background-color:#2F4034;color:white;}
+.selectsel{background-color:transparent;color:white;border:1px #c0c0c0 solid}
+input.leftd {background-color:#FFFFCC;color:black;border:0px;text-align:left;vertical-align:middle;font-family:times}
+input.left {background-color:#FFFFFF;color:black;border:0px;text-align:left;vertical-align:middle;font-family:times}
+input.right {background-color:#FFFFFF;color:black;border:0px;text-align:right;vertical-align:middle;font-family:times}
+input.underline {background-color:#FFFFFF;color:blue;text-decoration:underline; border:0; text-align:left;vertical-align:middle;font-family:times}
+input.flat {background-color:#FFFFFF;color:blue;border:0px;vertical-align:middle;font-family:times}
+input.dunderline {background-color:#FFFFCC;color:blue;text-decoration:underline; border:0; text-align:left;vertical-align:middle;font-family:times}
+input.samebg {background-color:transparent;border:0;text-align:left;vertical-align:middle;font-family:times}
+input.dflat {background-color:#FFFFCC;color:blue;border:0px;vertical-align:middle;font-family:times}
+select {background-color:#FFFFFF;color:black;border-width:0px;font-family:times}
+select.selectclass {border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;background-color:#FFFFFF;color: black; border-width:0px;vertical-align:middle;font-family:times}
+textarea {border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;background-color:#FFFFFF;color:black;font-family:times}
+input{background-color:#FFFFFF;color:black;font-family:times; vertical-align:middle}
+input.radchk{background-color:transparent}
+body{background:linear-gradient(10deg,#FFFFCC,#FFFFED 10%, #FFFFFF) #FFFFCC;margin:5px 5px 0px 5px;font-family:times;font-weight:680}
+.outset{border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;;background:linear-gradient(to right,#2F4034,#394A3E,#A6A6A6);font-family:times}
+.outset2{border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;background:linear-gradient(#2F4034,#b0b0b0);border:2px #394A3E outset;font-family:times}
+.forcurve1{text-shadow:#060606 -1px -1px;text-align:center;font-weight:bold;color:#DDCC11;font-size:25px;font-family:times}
+.forcurve2{text-shadow:#060606 -1px -1px;text-align:center;font-weight:bold;color:#DDCC11;font-size:21px}
+.outset1{border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;background-color:#F5F5C2;border:1px #F5F5C2 outset;font-family:times}
+.outset3{border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;background-image:linear-gradient(180deg,#F5F5C2,#FFFFD4);background-color:#FFFFCC;border:1px #394A3E solid;font-family:times}
+.shadow1 {float:left;background: url(image/trans-shadow.png) no-repeat bottom right;}.shadow1 table {display: block;  position: relative;  padding: 5px; background-color: #fff;  border: 1px solid #cecece; margin: 0px 6px 6px 0px;}.shadow1 div {display: block;  position: relative;  padding: 5px; background-color: #fff;  border: 1px solid #cecece; margin: 0px 6px 6px 0px;}.shadow1 img {display: block;  position: relative;  padding: 5px; background-color: #fff;  border: 1px solid #cecece; margin: 0px 6px 6px 0px;}
+.trig{width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:10px solid white}
+.MathJax nobr>span.math>span{border-left-width:0 !important};
+@keyframes rotatepic{from {tranform:rotate(0deg)}
+to {tranform:rotate(359deg)}}
+pre{margin:-2px 0px -2px 0px}
