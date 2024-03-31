@@ -1,9 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<!-- <html>
+  <style>
+    body {
+      background-color: aquamarine;
+      margin: 100px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <script type="text/javascript">
+    c = function () {
+      var h, t;
+      h = document.querySelector('#hello');
+      t = document.getElementById('text').value;
+      h.innerHTML = t;
+      h.animate([{ transform: 'rotate(0deg)' }, { transform: 'rotate(360deg)' }], 1000);
+    };
+  </script>
+  <body>
+    <h2 id="hello">Hello World</h2>
+    <input type="text" name="text" id="text" />
+    <button onclick="c();">Change</button>
+  </body>
+</html> -->
+
+<html>
+  <body>
+    <p id="count" style="font-size: 10px">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <button onclick="c();">Change</button>
+    <script type="text/javascript">
+      c = function () {
+        var n = n + 1;
+        var p = document.getElementById('count');
+
+        var s = parseInt(p.style.fontSize) + 1;
+        p.style.fontSize = s + 'px';
+      };
+    </script>
+  </body>
 </html>
